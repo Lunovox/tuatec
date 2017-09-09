@@ -1,0 +1,42 @@
+<p align="justify">
+	Este site foi criado por <a href="?sub=contato">Lunovox Heavenfinder</a> para anunciar 
+	serviços de informática sobre <a href="?sub=hint_agpl">licenças livre</a>. Demonstrando 
+	que é possível alcançar uma organização empresarial usando tecnologia de ponta com baixo 
+	custo.
+</p><br/>
+
+<p align="justify">
+	<h3>O FUNDADOR</h3>
+	Lunovox Heavenfinder trabalha em tecnologia de informática desde 24 de janeiro de 2006 e nesse 
+	tempo vem desenvolvendo software livre, e prestando serviços de desenvolvimento e manutenção de 
+	<a href="?sub=hint_scm">SCM</a> por <a href="?sub=hint_erp">ERP</a>. Com o passar do tempo tem 
+	conseguido avançar posições nesse ainda pequeno segmento do mercado. Por alta demanda e baixa 
+	oferta DESTE mercado, está total confiante no futuro de seu empreendimento.
+</p><br/>
+
+<p align="justify">
+	<h3>A MISSÃO</h3>
+	Atender as necessidades de nossos clientes o mais rápido  possível. Evitando que os clientes 
+	tenha maiores transtornos relativos a processamento de informações.
+</p><br/>
+
+<p align="justify">
+	<h3>O OBJETIVO</h3>
+	Oferecer a tecnologia necessária para que nossos clientes organizem-se, poupando-lhes tempo e 
+	dinheiro. Investindo em trabalho terceirizado de especialistas altamente treinados que estão 
+	melhorando constantemente os métodos de seu trabalho e o cujo conhecimento é verificado pelos 
+	clientes. No qual enxergam e anunciam a qualidade de nossos produtos e serviços.
+</p><br/>
+
+<p align="justify">
+	<h3>O EXPEDIENTE</h3>
+	O atendimento é de segunda-feira a sexta-feira das 08h:00 as 13h:00 por áudio através do software 
+	<a href="?sub=mumble">Mumble</a>. Ou pelo e-mail <a href="?sub=contato">lunovox@openmailbox.org</a>.
+</p><br/>
+
+<p align="center">
+	<img 
+		src="imgs/selos/selo_tuatec_softwares.jpg" 
+		style="vertical-align:middle; display:table-cell;"
+	/>
+</p><br/>
