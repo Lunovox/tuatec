@@ -1,0 +1,36 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://tuatec.com.br/apps/libretube/v1/</loc>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://tuatec.com.br/apps/webradio/</loc>
+	</url>
+	
+	<url>
+		<loc>http://tuatec.com.br/home2/?sub=contato</loc>
+	</url>
+	<url>
+		<loc>http://tuatec.com.br/home2/?sub=sobre</loc>
+	</url>
+	<url>
+		<loc>http://tuatec.com.br/home2/?sub=owncloud</loc>
+	</url>
+	<url>
+		<loc>http://tuatec.com.br/home2/?sub=mumble</loc>
+	</url>
+	<url>
+		<loc>http://tuatec.com.br/home2/?sub=embarcado</loc>
+	</url>
+	<url>
+		<loc>http://tuatec.com.br/home2/?sub=hint_scm</loc>
+	</url>
+	<url>
+		<loc>http://tuatec.com.br/home2/?sub=hint_erp</loc>
+	</url>
+	<url>
+		<loc>http://tuatec.com.br/home2/?sub=hint_agpl</loc>
+	</url>
+
+</urlset>

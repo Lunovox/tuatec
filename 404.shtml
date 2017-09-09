@@ -1,0 +1,9 @@
+<script>
+	window.location="http://www.tuatec.com/loja/index.php?"+
+	"Menu=ocorrencia_de_erro&"+
+	"rc=sac@tuatec.com&"+
+	"sb=ERRO 404: URL não encontrada!&"+
+	"hr=<!--#echo var="HTTP_REFERER" -->&"+
+	"rs=<!--#echo var="REDIRECT_STATUS" -->&"+
+	"ru=http://www.tuatec.com<!--#echo var="REQUEST_URI" -->";
+</script>

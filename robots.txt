@@ -1,0 +1,65 @@
+sitemap: sitemap.xml
+
+###### Todos os robôs ####################
+
+# Exemplos de User-Agent: Googlebot-Image
+
+User-Agent: *
+Disallow: /apps/
+Disallow: /labs/
+Disallow: /tools/
+Disallow: /repos/
+Disallow: /lunohome/
+
+Crawl-delay: 10
+Allow: /home2/index.php?$
+Allow: /apps/libretube/v1/
+
+#####################################################################################
+
+###### Outros exemplos de robôs #####################################################
+
+## outros links: http://www.geotn.it/robots.txt
+## Indexador manual: https://www.google.com/webmasters/tools/submit-url?pli=1
+## sitemap: http://www.geotn.it/sitemap.xml
+
+## User-agent: MJ12bot
+## User-agent: 123People
+## User-agent: 118000
+## User-agent: findestars
+## User-agent: MyOnID
+## User-agent: peekyou
+## User-agent: Pipl
+## User-agent: rapleaf
+## User-agent: snitch
+## User-agent: spock
+## User-agent: tweepz
+## User-agent: wink
+## User-agent: Yasni
+## User-agent: yoname
+## User-agent: yourtraces
+## User-agent: zoominfo
+## User-agent: webgroupes.eu
+## User-agent: le-code-promo.fr
+## User-agent: 2trouver.fr
+## User-agent: ecofree.org
+## User-agent: vkontakte.ru
+## User-agent: gookombat.com
+## User-agent: kimsufi.com
+## User-agent: stufftopin.com
+## User-agent: AhrefsBot
+## User-agent: semalt.com
+## User-agent: seositecheckup.com
+## User-agent: darodar.com
+## User-agent: ilovevitaly.com
+## User-agent: 7makemoneyonline.com
+## User-agent: forum.topic1171307.darodar.com
+## User-agent: econom.co
+## User-agent: buttons-for-website.com
+## User-agent: livres-musique-films.choozen.fr
+## User-agent: duckduckgo.com
+## User-agent: 4webmasters.org
+## User-agent: trafficmonetize.org
+
+#####################################################################################
+
