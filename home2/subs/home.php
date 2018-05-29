@@ -8,7 +8,7 @@
 	vspace="0" 
 	onload="this.start();"
 >
-	<a target="_blank" href="../apps/libretube/"><img 
+	<a target="_blank" href="http://libretube.tuatec.com.br"><img 
 		src="imgs/modelos/libretube.tuatec.ddns.net.png" 
 		style="display:inline; cursor:pointer; cursor:hand; opacity:0.9;"
 		onmouseover="document.getElementById('maqMostruario').stop(); this.style.opacity=1.0;"

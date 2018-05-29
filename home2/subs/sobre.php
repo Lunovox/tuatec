@@ -31,7 +31,7 @@
 <p align="justify">
 	<h3>O EXPEDIENTE</h3>
 	O atendimento é de segunda-feira a sexta-feira das 08h:00 as 13h:00 por áudio através do software 
-	<a href="?sub=mumble">Mumble</a>. Ou pelo e-mail <a href="?sub=contato">lunovox@openmailbox.org</a>.
+	<a href="?sub=mumble">Mumble</a>. Ou pelo pelo painel de <a href="?sub=contato">contatos</a>.
 </p><br/>
 
 <p align="center">

@@ -46,7 +46,18 @@
 			<br>
 			<?php 
 		} 
+		
+		
+		$qtd=0;
+		$sorteds = array();
 		while ($Conteudo=@readdir($Pasta)) {
+			$qtd++;
+			$sorteds[$qtd]=$Conteudo;
+		}
+		sort($sorteds);
+		
+		while (list($key, $val) = each($sorteds)) { 
+			$Conteudo=$val;
 			if($Conteudo!="." and $Conteudo!=".." and $Conteudo!="db"){
 				$URL=$PastaBase.$Local."/".$Conteudo;
 				$Peso=@filesize($URL);

@@ -1,5 +1,5 @@
 <?php 
-function Enviar_Email($Formato="TXT",$Destinatario="lunovox@openmailbox.org",$Remetente="",$Assunto="",$Recado=""){
+function Enviar_Email($Formato="TXT",$Destinatario="lunovox@disroot.org",$Remetente="",$Assunto="",$Recado=""){
 	if($Destinatario!=""){
 		if($Remetente!=""){
 			if($Recado!=""){
@@ -45,15 +45,15 @@ function Enviar_Email($Formato="TXT",$Destinatario="lunovox@openmailbox.org",$Re
 				if($ResultadoDoEMail!=""){
 					$Recado="";
 					return
-					"<center><font color='#008800' size='4'>MENSAGEM ENVIADA COM SUCESSO!</font><br/>".
+					"<center><font color='#008800' size='4'><h2>MENSAGEM ENVIADA COM SUCESSO!</h2></font><br/>".
 					"Logo respoderemos sua mensagem.</center><br/><br>".
-					"Em caso de urgência telefone: <font color=0000FF><nobr><b>(081) 87310165</b></nobr></font>.";
+					"Em caso de urgência telefone: <font color=0000FF><nobr><b>(081)9.9675.4954</b></nobr></font>.";
 				}else{
 					return 
 					"<center><font size=4 color=FF0000><b>FALHA AO ENVIAR MENSAGEM</b></font></center>".
 					"<p align=justify>Não foi possível enviar sua mensagem de testo através da Internet. ".
 					"Tente novamente mais tarde, ou em caso de urgência telefone: ".
-					"<font color=0000FF><nobr><b>(081) 87310165</b></nobr></font></p>";
+					"<font color=0000FF><nobr><b>(081)9.9675.4954</b></nobr></font></p>";
 				}
 #-------------------------------------------------------------------------------------------------------------------
 			}else{return "<font color=FF0000>Digite sua <b>Mensagem</b> na caixa de testo!";}

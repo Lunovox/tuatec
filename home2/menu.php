@@ -6,8 +6,8 @@
 		<ul>
 			<li>
 				<a 
-					title="OwnCloud - Armazene seus arquivos em sua própria nuvem de internet."
-					href="?sub=tools_owncloud" 
+					title="NextCloud - Armazene seus arquivos em sua própria nuvem de internet."
+					href="?sub=tools_webcloud" 
 				>Armazém em Nuvem</a>
 			</li>
 			<li>
@@ -23,13 +23,6 @@
 					href="http://<?=$_SERVER['HTTP_HOST'];?>:9001" 
 					target="_blank"
 				>Digitação Cooperativa</a>
-			</li>
-			<li>
-				<a 
-					title="Web FTP - Adminsitre seus site e sistema operacional."
-					href="../tools/webftp" 
-					target="_blank"
-				>Web FTP</a>
 			</li>
 			<li><a 
 				title="SQL Buddy - Adminsitre seus banco de dados."
@@ -56,7 +49,7 @@
 			<li>
 				<a 
 					title="Libretube - Crie seu canal de vídeo com suas próprias regras de compartilhamento."
-					href="../apps/libretube/" 
+					href="http://libretube.tuatec.com.br" 
 					target="_blank"
 				>Libretube</a>
 			</li>
@@ -76,6 +69,32 @@
 				>Lojista</a>
 			</li>
 			/**/ ?>
+		</ul>
+	</li>
+
+	<li> <a>Tools</a>
+		<ul>
+			<li>
+				<a 
+					title="Web FTP - Adminsitre seus site e sistema operacional."
+					href="../tools/net2ftp_v1.1/files_to_upload/" 
+					target="_blank"
+				>Web FTP</a>
+			</li>
+			<li>
+				<a 
+					title="dcsubtitle2vtt - Convert legenda DCS para VTT."
+					href="../tools/dcsubtitle2vtt/" 
+					target="_blank"
+				>DCSubtitle2VTT</a>
+			</li>
+			<li>
+				<a 
+					title="PHPMyAdmin - Acessar o banco de dados MySQL da Tuatec."
+					href="../tools/phpmyadmin/" 
+					target="_blank"
+				>PHPMyAdmin</a>
+			</li>
 		</ul>
 	</li>
 	<li> <a>Empresa</a>
