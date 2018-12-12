@@ -52,8 +52,8 @@ AddType 'text/php; charset=UTF-8' .php
 # Impede de listar os arquivo das pastas do domínio
 Options -Indexes
 
-# Previne acesso direto aosarquivosdo tipo: tpl, ini, log, sql, conf
-<FilesMatch "\.(tpl|ini|log|sql|conf)">
+# Previne acesso direto aosarquivosdo tipo: tpl, ini, log, sql, conf, db
+<FilesMatch "\.(tpl|ini|log|sql|conf|db)">
     Order deny,allow
     Deny from all
 </FilesMatch>
@@ -93,7 +93,7 @@ Header set Content-Language "pt-BR"
 <Files password.php>
 #<Files /home2/?sub=biblioteca>
     AuthType Basic
-    AuthName "Password Protected"
+    AuthName "Senha de Acesso"
     #AuthUserFile /full/path/to/.htpasswd
     AuthUserFile /passwords/.htpasswd
     Require valid-user
