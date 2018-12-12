@@ -7,23 +7,174 @@ php_value max_execution_time 24000
 php_value post_max_size 2G
 php_value memory_limit 12000M
 
+#Redirecionamento via arquivos PHP:
+#<?php
+#header("HTTP/1.1 301 Moved Permanently");
+#header("Location: https://laluzdigital.com/");
+#exit();
+#?>
+
+#-----------------------------------------------------------------------------
+# HTID:7859880: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:7859880:
+
+#-----------------------------------------------------------------------------
+# BEGIN WordPress
+#RewriteEngine On
+#RewriteBase /
+#RewriteRule ^index\.php$ - [L]
+
+# uploaded files
+#RewriteRule ^files/(.+) wp-includes/ms-files.php?file=$1 [L]
+
+#RewriteCond %{REQUEST_FILENAME} -f [OR]
+#RewriteCond %{REQUEST_FILENAME} -d
+#RewriteRule ^ - [L]
+#RewriteRule . index.php [L]
+# END WordPress
+#-----------------------------------------------------------------------------
+
+
+DirectoryIndex index.php index.html /index.php
+DefaultLanguage pt_BR
+AddDefaultCharset UTF-8
+
+# Set Charset for Specific Files
+AddType 'text/html; charset=UTF-8' .html
+AddType 'text/php; charset=UTF-8' .php
+
+# Set for specific files
+<Files "index.php">
+    AddCharset UTF-8 .php
+</Files>
+
+# Impede de listar os arquivo das pastas do domínio
+Options -Indexes
+
+# Previne acesso direto aosarquivosdo tipo: tpl, ini, log, sql, conf
+<FilesMatch "\.(tpl|ini|log|sql|conf)">
+    Order deny,allow
+    Deny from all
+</FilesMatch>
+
+#The ServerSignature directive allows the configuration of a trailing footer line under server-generated documents. Optionally add a line containing the server version and virtual host name to server-generated pages (internal error documents, FTP directory listings, mod_status and mod_info output etc., but not CGI generated documents or custom error documents). 
+SetEnv SERVER_ADMIN lunovox@disroot.org
+ServerSignature Email
+
+# Force Files to be Downloaded
+#AddType application/octet-stream .avi .mpg .mov .pdf .xls .mp4
+AddType application/octet-stream .avi .mpg .mov .xls .mp4 .mp3
+
+#Há um foco crescente na velocidade do site, tanto por parte dos SEOs (porque o Google se importa) e também por parte dos desenvolvedores que sabem que mais e mais visitantes estão chegando aos sites por meio de conexões móveis. Você deve ter cuidado com esta dica para ter certeza que já não existam os sistemas de armazenamento em cache e que você escolha o comprimento de cache apropriado. No entanto, se você quiser uma solução rápida e fácil para definir o número de segundos, você pode usar a abaixo. Aqui eu defini arquivos estáticos para o cache por 24 horas:
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)quot;>
+    Header set Cache-Control "max-age=28800"
+</FilesMatch>
+
+
+#-----------------------------------------------------------------------------
+#HTTP Compression
+#AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/javascript text/css application/x-javascript
+#BrowserMatch ^Mozilla/4 gzip-only-text/html
+#BrowserMatch ^Mozilla/4\.0[678] no-gzip
+#BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+
+# Force Compression for certain files
+#<FilesMatch "\.(js|css|txt|xml)$">
+#SetOutputFilter DEFLATE
+#</FilesMatch>
+#-----------------------------------------------------------------------------
+
+Header set X-Pingback "http://www.tuatec.com.br/home2/pingback.php"
+Header set Content-Language "pt-BR"
+
+# Password Protect Login
+# Isso é muito útil para proteger o arquivo 'password.php'. Você pode usar este gerador htpasswd.
+<Files password.php>
+#<Files /home2/?sub=biblioteca>
+    AuthType Basic
+    AuthName "Password Protected"
+    #AuthUserFile /full/path/to/.htpasswd
+    AuthUserFile /passwords/.htpasswd
+    Require valid-user
+    Satisfy All
+</Files>
+
+#Outro uso comum de arquivos .htaccess é ativar o Server Side Includes para um diretório em particular. Isto pode ser feito com as seguintes diretrizes de configuração, colocadas em um arquivo .htaccess no diretório desejado:
+Options +Includes
+AddType text/html shtml
+AddHandler server-parsed shtml 
+
+# Em caso de erro de endereço não encontrado.
+#ErrorDocument 404 /404.shtml
+
+# Can also do the same for other errors...
+ErrorDocument 403 /403.shtml
+
+# Você pode aplicar diretivas a todos os arquivos de um diretório através da criação de um arquivo htaccess no diretório e adicionando este comando:
+Header set X-Robots-Tag "noindex, noarchive, nosnippet"
+
+# Garantir www em todos os URLs.
+RewriteCond %{HTTP_HOST} ^tuatec.com.br$ [NC]
+RewriteRule ^(.*)$ http://www.tuatec.com.br/$1 [L,R=301]
+
+# Certifique-se de que estamos usando a versão HTTPS do site. Mas, só se o site tiver SSL onfigurado.
+#RewriteCond %{HTTPS} !on
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Garanta que todas as URLs tenham uma barra final.
+#RewriteBase /
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_URI} !(.*)/$
+#RewriteRule ^(.*)$ http://www.tuatec.com.br/$1/ [L,R=301]
+
+# Subdomínio - Você vai precisar colocar isso aqui no .htaccess da pasta do subdomínio:
+#RewriteEngine on
+#Options +FollowSymLinks
+#RewriteCond %{HTTP_HOST} ^libretube.tuatec.com.br$ [OR]
+#RewriteCond %{HTTP_HOST} ^www.libretube.tuatec.com.br$
+#RewriteRule ^(.*)$ http://www.tuatec.com.br/apps/libretube/$1 [P]
+
+#RewriteCond %{HTTP_HOST} ^libretube.tuatec.com.br$ [NC]
+#RewriteRule ^(.*)$ http://www.tuatec.com.br/apps/libretube/$1 [L,R=301]
 
 
 
+# http://tuatec.com.br/biblioteca ---> http://tuatec.com.br/home2/index.php?sub=biblioteca
+#RewriteEngine On
+#Options +FollowSymLinks
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ http://www.tuatec.com.br/home2/?sub=$1
+
+# Rewrite a specific product...
+RewriteEngine on
+Options +FollowSymLinks
+RewriteRule biblioteca/(.*) http://www.tuatec.com.br/home2/index.php?sub=biblioteca&Local=/$1
+RewriteRule biblioteca http://www.tuatec.com.br/home2/index.php?sub=biblioteca
+
+RewriteRule libretube/(.*) http://www.tuatec.com.br/apps/libretube/?v=$1
+RewriteRule libretube http://www.tuatec.com.br/apps/libretube
+RewriteRule ^libretube.tuatec.com.br$ http://www.tuatec.com.br/apps/libretube
 
 
+#RewriteRule (.*)$.tuatec.com.br http://www.tuatec.com.br/$1/AAAA
+
+#RewriteEngine On
+#RewriteCond %{HTTP_HOST} !^tuatec.com.br [NC]
+#RewriteCond %{HTTP_HOST} !^www.tuatec.com.br [NC]
+#RewriteRule ^(.*)$.tuatec.com.br apps/$1
+
+#Options +FollowSymLinks
+#RewriteEngine on
+#RewriteRule (.*)/(.*).tuatec.com.br/$ apps/$1
+#RewriteRule ^(.*)$.tuatec.com.br apps/$1
+
+# Se você trabalha com um site móvel com a mesma URLs do seu site principal, mas ao invés de usar o design responsivo você está alterando a HTML, então você deve estar usando o cabeçalho “Vary” para permitir que o Google conheça as alterações de HTML para usuários móveis. Isso os ajuda a rastrear e indexar as páginas de forma mais adequada: https://developers.google.com/webmasters/smartphone-sites/details
+Header append Vary User-Agent
 
 
-
-
-
-
-
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:Xanaqy
-ErrorDocument 404 404.shtml
-ErrorDocument 403 403.shtml
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE Xanaqy:ERRORPAGEID
-
-
+# FONTES:
+#   * https://httpd.apache.org/docs/2.4/pt-br/howto/htaccess.html
+#   * https://imasters.com.br/midia-e-marketing-digital/10-trechos-de-arquivos-htaccess-que-voce-deve-ter-a-mao
+#   * https://pt.stackoverflow.com/questions/184232/htaccess-subdom%c3%adnio
