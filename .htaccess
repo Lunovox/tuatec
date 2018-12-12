@@ -106,10 +106,10 @@ AddType text/html shtml
 AddHandler server-parsed shtml 
 
 # Em caso de erro de endereço não encontrado.
-#ErrorDocument 404 /404.shtml
+ErrorDocument 404 /erro_404.shtml
 
-# Can also do the same for other errors...
-ErrorDocument 403 /403.shtml
+# Em caso de erro por acesso negado.
+ErrorDocument 403 /erro_403.shtml
 
 # Você pode aplicar diretivas a todos os arquivos de um diretório através da criação de um arquivo htaccess no diretório e adicionando este comando:
 Header set X-Robots-Tag "noindex, noarchive, nosnippet"
