@@ -6,8 +6,8 @@
 </p>
 
 <p align="justify">
-		<b>Web RTC</b> é uma API em desenvolvimento elaborada pela World Wide Web Consortium (W3C) 
-		para permitir aos navegadores executar aplicações de chamada telefônica, video chat e 
-		compartilhamento P2P sem a necessidade de plugins. <br/><br/>
+	<b>Web RTC</b> é uma API em desenvolvimento elaborada pela World Wide Web Consortium (W3C) 
+	para permitir aos navegadores executar aplicações de chamada telefônica, video chat e 
+	compartilhamento P2P sem a necessidade de plugins. <br/><br/>
 </p>
 
