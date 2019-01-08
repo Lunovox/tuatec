@@ -15,22 +15,19 @@
 
 	<b>Seu Nome:</b><br/>
 	<input
-		id="txtNome" name="Nome" type=text
-		style="width:300px" required="true"
+		id="txtNome" name="Nome" type=text equired="true"
 		value="<?=Propriedade('Nome');?>"
 	/><br/><br/>
 
 	<b>Seu E-mail:</b> <br/>
-	<SCRIPT SRC="subs/contato.js"></SCRIPT>
+	<script SRC="subs/contato.js"></script>
 	<input
-		id="txtRemetente" name="Remetente" type="email"
-		style="width:300px" required="true"
+		id="txtRemetente" name="Remetente" type="email" required="true"
 		value="<?=Propriedade('Remetente');?>"
 	/><br/><br/>
 
 	<b>Mensagem:</b> <br/>
-	<TEXTAREA id="txtMensagem" name="Mensagem" required="true"
-		style="width:98%; height:135px; color:#000000; font-size:14px; font-family:arial;"
+	<TEXTAREA id="txtMensagem" name="Mensagem" required="true" rows="4"
 	><?=Propriedade("Mensagem");/**/ ?></TEXTAREA><br/><br/>
 
 	<center>
@@ -38,3 +35,4 @@
 	</center>
 
 </form>
+<br/><br/><br/><br/><br/>
