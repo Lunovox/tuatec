@@ -12,8 +12,7 @@
 		<link rel="stylesheet" href="estilo_mobile.css" media="(max-width:380px)">
 		<link rel="stylesheet" href="estilo_geral.css" media="screen">
 		-->
-		<meta_ name_="viewport" content_="width=380">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<link rel="stylesheet" href="estilo_geral.css">
 		
