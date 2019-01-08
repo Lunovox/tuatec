@@ -376,6 +376,9 @@ input[type=submit]:active, button:active {
     /*cursor:hand; /**/
     opacity:0.7; 
 }
+.divMarquee:hover{ 
+    opacity:1.0; 
+}
 
 .linkMarquee{     
     display:inline-block;
@@ -383,7 +386,7 @@ input[type=submit]:active, button:active {
 }
 
 .imgMarquee{     
-    max-height:calc(100vh - 230px - 90px); 
+    max-height:50vh; /**/
 }
 
 div a[target="_blank"] { 
