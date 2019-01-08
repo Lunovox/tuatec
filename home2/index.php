@@ -12,7 +12,9 @@
 		<link rel="stylesheet" href="estilo_mobile.css" media="(max-width:380px)">
 		<link rel="stylesheet" href="estilo_geral.css" media="screen">
 		-->
-		<meta name="viewport" content="width=380">
+		<meta_ name_="viewport" content_="width=380">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<link rel="stylesheet" href="estilo_geral.css">
 		
 		<script>
@@ -42,7 +44,7 @@
 		</script>
 		<script language="JavaScript" src="functions.js"></script>
 
-		<script src="libs/tinymce/tinymce.min.js"></script>
+		<script_ src="libs/tinymce/tinymce.min.js"></script>
 
 		
 		<script language="JavaScript">
@@ -76,7 +78,8 @@
 			</section>
 			<aside><!-- Aqui vai ficar qualquer banner de propaganda --></aside>
 			<footer>
-				Soluções de informática em nuvem para micro e pequenas empresas. 
+				Soluções de informática em nuvem para micro e pequenas empresas. <br/>
+				<img src="http://tuatec.com.br/home2/imgs/selos/selo_tuatec_softwares.jpg" />
 			</footer>
 		</center>
 	</body>
