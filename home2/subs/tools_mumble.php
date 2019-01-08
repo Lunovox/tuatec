@@ -43,19 +43,19 @@
 		-->
 	</ul>
 
-	<b>Tutorial:</b>
-	<!--
-	<ul style="margin-left:30px">
-		<a target="_blank" href="../apps/opentube/?video=22">Vídeo Tutorial no Opentube para iniciantes de Mumble</a>
-	</ul>
-	-->
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/snnrctsC09A?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+	<b>Screenshot:</b><br/>
+	<p align="center">
+		<img id="imgHeader" src="imgs/simbolos/mumble_screenshot.png"/>
+	</p><br/>
 
-</p><br/>
+	<b>Tutorial:</b><br/>
+	<iframe 
+		src="https://www.youtube.com/embed/snnrctsC09A?rel=0&amp;showinfo=0" 
+		frameborder="0" allowfullscreen
+	></iframe>
 
-<p align="center">
-	<img id="imgHeader" src="imgs/simbolos/mumble_screenshot.png"/>
-</p><br/>
+</p><br/><br/>
+
 
 
 
