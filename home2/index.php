@@ -76,9 +76,10 @@
 				?>
 			</section>
 			<aside><!-- Aqui vai ficar qualquer banner de propaganda --></aside>
+			<br/><br/>
 			<footer>
 				Soluções de informática em nuvem para micro e pequenas empresas. <br/>
-				<img src="http://tuatec.com.br/home2/imgs/selos/selo_tuatec_softwares.jpg" />
+				<img src="imgs/selos/selo_tuatec_softwares.jpg" />
 			</footer>
 		</center>
 	</body>

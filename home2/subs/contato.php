@@ -6,9 +6,23 @@
 	<div>
 		<p align="justify">
 			<? if(Propriedade('Aviso')==""){ ?>
-			O atendimento é de segunda-feira a sexta-feira das 08h:00 as 13h:00 por áudio através do software 
-			<a href="?sub=mumble">Mumble</a>. Ou pelo formulário abaixo que enviará sua mesagem para o e-mail 
-			<a href="mailto:lunovox@disroot.org">lunovox@disroot.org</a>.<br/>
+			
+			O atendimento é de segunda-feira a sexta-feira das 
+			14h:00 as 20h:00 por áudio através do <a href="?sub=tools_webrtc">Web RTC</a>.
+			Ou pelo formulário abaixo que enviará sua mesagem para o e-mail 
+			<a href="mailto:lunovox@disroot.org">lunovox@disroot.org</a>.
+			<br/><br/>
+			
+			<details>
+				<summary style="cursor:pointer; color:blue;"><b>O que é Web RTC ?</b></summary><br/>
+				<div>
+					<b>Web RTC</b> é uma API em desenvolvimento elaborada pela World Wide Web 
+					Consortium (W3C) para permitir aos navegadores executar aplicações de chamada
+					telefônica, video chat e compartilhamento P2P sem a necessidade de plugins. 
+					<br/>
+				</div>
+			</details>
+			
 			<? }else{ echo Propriedade('Aviso'); }?>
 		</p>
 	</div><br/>
@@ -33,6 +47,5 @@
 	<center>
 		<button id="btnEnviar" onclick="return onSendMail();">Enviar</button>
 	</center>
-
+	<br/>
 </form>
-<br/><br/><br/><br/><br/>
