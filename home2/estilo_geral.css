@@ -383,7 +383,7 @@ input[type=submit]:active, button:active {
 }
 
 .imgMarquee{     
-    max-height:calc(100vh - 230px - 50px); 
+    max-height:calc(100vh - 230px - 90px); 
 }
 
 div a[target="_blank"] { 
