@@ -1,5 +1,6 @@
 <?php
-	session_start("tuatec-home");
+	//session_start("tuatec-home");
+	session_start();
 
 	ini_set('display_errors', 'On'); 
 	ini_set('error_reporting', 'E_ALL | E_STRICT'); 
