@@ -6,21 +6,15 @@
 		<ul>
 			<li>
 				<a 
-					title="Web RTC - Atendimento de telefonia diretamente pelo site de Internet."
-					href="?sub=tools_webrtc" 
-				>Áudio-Atendimento</a>
-			</li>
-			<li>
-				<a 
 					title="NextCloud - Armazene seus arquivos em sua própria nuvem de internet."
 					href="?sub=tools_webcloud" 
 				>Armazém em Nuvem</a>
 			</li>
 			<li>
 				<a 
-					title="Mumble - Converse por áudio com seus clientes e amigos."
+					title="Mumble - Converse por áudio com multiplas pessoas."
 					href="?sub=tools_mumble"
-				>Telefonia por Internet</a></li>
+				>Sala de Áudio-Conferência</a></li>
 			</li>
 			<!--
 			<li>
@@ -116,7 +110,13 @@
 				<a 
 					title="Mande u memail para a nossa empresa."
 					href="?sub=contato"
-				>Contatos</a>
+				>Contatos por E-mail</a>
+			</li>
+			<li>
+				<a 
+					title="Atendimento a longa distancia por áudio-vídeo sem instalar nada, e diretamento por este site de Internet."
+					href="?sub=tools_webrtc" 
+				>Contatos Instantâneo</a>
 			</li>
 		</ul>
 	</li>
