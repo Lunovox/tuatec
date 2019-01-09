@@ -27,16 +27,3 @@
 	melhorando constantemente os métodos de seu trabalho e o cujo conhecimento é verificado pelos 
 	clientes. No qual enxergam e anunciam a qualidade de nossos produtos e serviços.
 </p><br/>
-
-<p align="justify">
-	<h3>O EXPEDIENTE</h3>
-	O atendimento é de segunda-feira a sexta-feira das 08h:00 as 13h:00 por áudio através do software 
-	<a href="?sub=mumble">Mumble</a>. Ou pelo pelo painel de <a href="?sub=contato">contatos</a>.
-</p><br/>
-
-<p align="center">
-	<img 
-		src="imgs/selos/selo_tuatec_softwares.jpg" 
-		style="vertical-align:middle; display:table-cell;"
-	/>
-</p><br/>
