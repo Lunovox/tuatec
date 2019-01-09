@@ -1,9 +1,0 @@
-<script>
-	window.location="http://www.tuatec.com.br/home2/?"+
-	"sub=erro&"+
-	"rc=lunovox@disroot.org&"+
-	"sb=ERRO 403: Acesso Negado!&"+
-	"hr=<!--#echo var="HTTP_REFERER" -->&"+
-	"rs=<!--#echo var="REDIRECT_STATUS" -->&"+
-	"ru=http://www.tuatec.com.br<!--#echo var="REQUEST_URI" -->";
-</script>

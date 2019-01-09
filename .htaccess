@@ -106,13 +106,13 @@ AddHandler server-parsed shtml
 #-----------------------------------------------------------------------------
 
 # ERRO 404 - Em caso de erro de endereço não encontrado.
-ErrorDocument 404 /erro_404.shtml
+ErrorDocument 404 /home2/erro_404.shtml
 
 # ERRO 403 - Em caso de erro por acesso negado.
-ErrorDocument 403 /erro_403.shtml
+ErrorDocument 403 /home2/erro_403.shtml
 
 # ERRO 401 - Em caso de senha inválida acesso negado.
-ErrorDocument 401 /erro_401.shtml
+ErrorDocument 401 /home2/erro_401.shtml
 #-----------------------------------------------------------------------------
 
 # Você pode aplicar diretivas a todos os arquivos de um diretório através da criação de um arquivo htaccess no diretório e adicionando este comando:
