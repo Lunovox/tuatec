@@ -1,9 +1,10 @@
 <?php
+	session_start("tuatec-home");
+
 	ini_set('display_errors', 'On'); 
 	ini_set('error_reporting', 'E_ALL | E_STRICT'); 
 	error_reporting(E_ERROR | E_STRICT | E_WARNING | E_PARSE);
 
-	session_start("tuatec-home");
 	//ini_set('default_charset',"ISO-8859-15");
 	ini_set('default_charset',"UTF-8");
 	header("content-type: text/html");
