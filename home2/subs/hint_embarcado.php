@@ -45,12 +45,3 @@
 	para: Hospedar sites, Nuvem de Armazenamento, Central de Aúdio-chat, Vigilância por Câmera, Servidor de 
 	Jogos, e etc.
 </p><br/>
-
-
-
-<p align="center">
-	<img 
-		src="imgs/selos/selo_tuatec_softwares.jpg" 
-		style="vertical-align:middle; display:table-cell;"
-	/>
-</p><br/>

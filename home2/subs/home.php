@@ -22,36 +22,35 @@
 	onload="this.start();"
 >
 	<div class="divMarquee">
-	    <a class="linkMarquee" href="?sub=tools_mumble">
-	       <img 
-	            class="imgMarquee" onmouseover="doStop(this);" onmouseout="doStar(this);"
-        		src="imgs/simbolos/mumble_screenshot.png" 
-        		title="TELEFONIA POR INTERNET"
-        	/><br/>
-        	TELEFONIA POR INTERNET
-        </a> 
-    </div>
+		<a class="linkMarquee" href="?sub=tools_webcloud">
+			<img 
+				class="imgMarquee" onmouseover="doStop(this);" onmouseout="doStar(this);"
+				src="imgs/simbolos/nextcloud_screenshot.png" 
+				title="ARMAZENAMENTO EM NÚVEM"
+			/><br/>
+			ARMAZENAMENTO EM NÚVEM
+		</a> 
+	</div>
 	<div class="divMarquee">
-    	<a class="linkMarquee" href="?sub=tools_webcloud">
-    	    <img 
-        	    class="imgMarquee" onmouseover="doStop(this);" onmouseout="doStar(this);"
-        		src="imgs/simbolos/nextcloud_screenshot.png" 
-        		title="ARMAZENAMENTO EM NÚVEM"
-        	/><br/>
-    	    ARMAZENAMENTO EM NÚVEM
-        </a> 
-    </div>
+		<a class="linkMarquee" href="?sub=tools_mumble">
+			<img 
+				class="imgMarquee" onmouseover="doStop(this);" onmouseout="doStar(this);"
+				src="imgs/simbolos/mumble_screenshot.png" 
+				title="SALA DE ÁUDIO-CONFERÊNCIAS"
+			/><br/>
+			SALA DE ÁUDIO-CONFERÊNCIAS
+		</a> 
+	</div>
 	<div class="divMarquee">
-    	<a class="linkMarquee" href="?sub=hint_embarcado">
-            <img 
-        	    class="imgMarquee" onmouseover="doStop(this);" onmouseout="doStar(this);"
-        		src="imgs/simbolos/raspberry-pi-2-hand-v2-970x647-c.jpg" 
-        		title="COMPUTADORES EMBARCADOS"
-        	/><br/>
-    	    COMPUTADORES EMBARCADOS
-        </a>
-    </div>
-	
+		<a class="linkMarquee" href="?sub=hint_embarcado">
+			<img 
+				class="imgMarquee" onmouseover="doStop(this);" onmouseout="doStar(this);"
+				src="imgs/simbolos/raspberry-pi-2-hand-v2-970x647-c.jpg" 
+				title="COMPUTADORES EMBARCADOS"
+			/><br/>
+			COMPUTADORES EMBARCADOS
+		</a>
+	</div>	
 	<!--
 	<a target="_blank" href="http://libretube.tuatec.com.br"><img 
 		src="imgs/modelos/libretube.tuatec.ddns.net.png" 

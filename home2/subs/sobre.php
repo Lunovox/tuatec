@@ -1,5 +1,6 @@
 <p align="justify">
-	Este site foi criado por <a href="?sub=contato">Lunovox Heavenfinder</a> para anunciar 
+	
+	O site <a href="?"><img width="14" src="http://localhost/tuatec/home2/imgs/icons/sbl_tuatec.png" valign="absmiddle"/></a> <b>TUATEC</b>nologia<b>.COM.BR</b> foi criado por <a href="?sub=contato">Lunovox Heavenfinder</a> para anunciar 
 	serviços de informática sobre <a href="?sub=hint_agpl">licenças livre</a>. Demonstrando 
 	que é possível alcançar uma organização empresarial usando tecnologia de ponta com baixo 
 	custo.

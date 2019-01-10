@@ -9,6 +9,7 @@
 				src_off="https://webrtc.org/assets/images/webrtc-logo-horiz-retro-243x40.png"
 				src="https://cdn-images-1.medium.com/max/1600/0*iWlF5x7BVj1vh5Lu"
 			/><br/>
+			<button onclick="javascript:onCall()">ABRIR PAINEL</button>
 		</p>
 		
 		<script>
@@ -20,9 +21,9 @@
 	</div><br/>
 	
 	O <a href="javascript:onCall()">Áudio-Atendimento TUATEC</a> é de segunda-feira a sexta-feira 
-	das 14h:00 as 20h:00 por áudio através deste página que utilizar software 
-	<a href="javascript:onCall()">Web RTC</a>. Ou pelo <a href="?sub=contato">formulário e-mail</a> 
-	que enviará sua mesagem para o e-mail <a href="mailto:lunovox@disroot.org">lunovox@disroot.org</a>. <br/><br/>
+	das 12h:00 as 18h:00 por áudio através do painel <a href="javascript:onCall()">Web RTC</a>. 
+	Ou pelo <a href="?sub=contato">formulário e-mail</a> que enviará sua mesagem para o e-mail 
+	<a href="mailto:lunovox@disroot.org">lunovox@disroot.org</a>. <br/><br/>
 
 	<details>
 		<summary style="cursor:pointer; color:blue;"><b>O que é Web RTC ?</b></summary><br/>

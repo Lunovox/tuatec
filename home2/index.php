@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
 	<head>
-		<title>TUATEC</title>
+		<title>TUATECnologia.COM.BR</title>
 		<meta charset="UTF-8">
 		<LINK REL="shortcut icon" HREF="imgs/icons/sbl_tuatec.png">
 		<link rel="sitemap" type="application/xml" title="Sitemap" href="../sitemap.xml" />
@@ -76,10 +76,17 @@
 				?>
 			</section>
 			<aside><!-- Aqui vai ficar qualquer banner de propaganda --></aside>
-			<br/><br/>
+			<br/>
 			<footer>
-				Soluções de informática em nuvem para micro e pequenas empresas. <br/>
-				<img src="imgs/selos/selo_tuatec_softwares.jpg" />
+				<a 
+					href="?sub=sobre"
+					title="Soluções de informática em nuvem para micro e pequenas empresas."
+				>
+					<img 
+						src="imgs/selos/selo_tuatec_softwares.jpg" 
+						style="vertical-align:absmiddle; display:table-cell;"
+					/>
+				</a>
 			</footer>
 		</center>
 	</body>

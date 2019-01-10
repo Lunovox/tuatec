@@ -16,6 +16,12 @@
 					href="?sub=tools_mumble"
 				>Sala de Áudio-Conferência</a></li>
 			</li>
+			<li>
+				<a 
+					title="Computador Embarcado - Usar mini computadores como servidores de informação."
+					href="?sub=hint_embarcado" 
+				>Computadores Embarcados</a>
+			</li>
 			<!--
 			<li>
 				<a 
@@ -29,19 +35,13 @@
 				href="../tools/phpmyadmin" 
 				target="_blank"
 			>Banco de Dados</a></li>
-			-->
-			<li>
-				<a 
-					title="Computador Embarcado - Usar mini computadores como servidores de informação."
-					href="?sub=hint_embarcado" 
-				>Computadores Embarcados</a>
-			</li>
 			<li>
 				<a 
 					title="Internet Sem Provedor - Internet Comunitária via roteadores Wifi de curto alcance."
 					href="?sub=hint_netsukuku" 
 				>Internet Sem Provedor</a>
 			</li>
+			-->
 		</ul>
 	</li>
 	<?php /*

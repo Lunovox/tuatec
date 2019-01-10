@@ -1,5 +1,5 @@
 <p align="center">
-	<img id="imgHeader" src="imgs/simbolos/nextcloud_icon.png"/><br/>
+	<img id="imgHeader" width="250px" src="imgs/simbolos/nextcloud_icon.png"/><br/>
 </p><br/>
 
 <p align="justify">
@@ -11,7 +11,7 @@
 </p><br/>
 
 <p align="justify">
-	A Tuatec está combinando a tecnologia do NextCloud com <a target="_blank" href="?sub=embarcado">Computadores 
+	A <a href="?sub=contato">TUATEC</a> está combinando a tecnologia do NextCloud com <a href="?sub=hint_embarcado">Computadores 
 	Embarcados de baixo custo</a> para oferecer aos clientes a melhor forma custo benefício de armazenamento remoto 
 	seguro e intuitivo. Todos os tipos de arquivos (Documento, Imagens, Áudio, Vídeo, Softaware) pode sem 
 	armazenados e compartilhados controladamente entre os usuários cadastrados. Também é possível publicar de 
@@ -19,13 +19,13 @@
 </p><br/>
 
 <p align="justify">
-
 	<b>Servidores:</b> 
 	<ul style="margin-left:30px">
 		<li><a target="_blank" href="https://cloud.disroot.org/">NextCloud Disroot</a> (Parceiro Alternativo)</li>
 	</ul>
 </p><br/>
 
+<b>Screenshot:</b>
 <p align="center">
 	<img id="imgHeader" src="imgs/simbolos/nextcloud_screenshot.png"/>
 </p><br/>

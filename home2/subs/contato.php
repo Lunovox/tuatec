@@ -8,7 +8,7 @@
 			<? if(Propriedade('Aviso')==""){ ?>
 			
 			O atendimento é de segunda-feira a sexta-feira das 
-			14h:00 as 20h:00 por áudio através do <a href="?sub=tools_webrtc">Web RTC</a>.
+			12h:00 as 18h:00 por áudio através do <a href="?sub=tools_webrtc">Web RTC</a>.
 			Ou pelo formulário abaixo que enviará sua mesagem para o e-mail 
 			<a href="mailto:lunovox@disroot.org">lunovox@disroot.org</a>.
 			<br/><br/>
