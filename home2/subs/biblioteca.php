@@ -14,9 +14,7 @@
 	<?php
 	################ CONFIGURAÇÕES #######################################
 	$Redirecionar="?sub=biblioteca";
-	//$PastaBase="../biblioteca/";
-	$PastaBase="../labs/";
-	//$PastaBase="../";
+	$PastaBase="../../../";
 	$PastaDosIcones="imgs/icons";
 	//$ResultadoDoTeste=Autorizacao_do_colaborador();
 	$Local=Propriedade("Local");
@@ -55,6 +53,7 @@
 			$sorteds[$qtd]=$Conteudo;
 		}
 		sort($sorteds);
+		//print_r($sorteds);
 		
 		while (list($key, $val) = each($sorteds)) { 
 			$Conteudo=$val;
