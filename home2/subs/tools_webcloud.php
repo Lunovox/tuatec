@@ -28,6 +28,8 @@
 <b>Screenshot:</b>
 <p align="center">
 	<img id="imgHeader" src="imgs/simbolos/nextcloud_screenshot.png"/>
+	<br/>
+	<a target="_blank" rel="noreferrer noopener" href="https://nextcloud.com/sharing#Lunovox@cloud.disroot.org" style="padding:10px;background-color:#50162D;color:#ffffff;border-radius:3px;padding-left:4px;"> <span style="background-image:url(https://cloud.disroot.org/apps/theming/image/logo?useSvg=1&amp;v=60);width:50px;height:30px;position:relative;top:8px;background-size:contain;display:inline-block;background-repeat:no-repeat; background-position: center center;"></span> Compartilhe comigo via Nextcloud</a>
 </p><br/>
 
 
